@@ -93,12 +93,52 @@ header {
     overflow: hidden;
     transition: all 0.3s ease;
     box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+    position: relative;
 }
 
 .product-card:hover {
     transform: translateY(-10px) scale(1.02);
     border-color: #ff00ff;
     box-shadow: 0 0 40px rgba(255, 0, 255, 0.8), 0 0 60px rgba(0, 255, 255, 0.6);
+}
+
+/* Sold Products */
+.product-card.sold {
+    opacity: 0.6;
+    border-color: #666;
+    box-shadow: 0 0 10px rgba(100, 100, 100, 0.3);
+}
+
+.product-card.sold:hover {
+    transform: none;
+    border-color: #666;
+    box-shadow: 0 0 10px rgba(100, 100, 100, 0.3);
+    cursor: default;
+}
+
+.product-card.sold::after {
+    content: 'SOLD';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-25deg);
+    font-family: 'Press Start+2P', cursive;
+    font-size: 4rem;
+    color: #ff0000;
+    text-shadow:
+        0 0 10px #ff0000,
+        0 0 20px #ff0000,
+        0 0 30px #ff0000,
+        3px 3px 0 #000,
+        -3px -3px 0 #000,
+        3px -3px 0 #000,
+        -3px 3px 0 #000;
+    z-index: 10;
+    pointer-events: none;
+}
+
+.product-card.sold .product-image img {
+    filter: grayscale(100%) contrast(0.8);
 }
 
 .product-image {
