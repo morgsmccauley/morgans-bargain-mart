@@ -1,13 +1,13 @@
 // Product catalog configuration
 const products = [
     {
-        title: "Ergobaby 360 baby carrier",
+        title: "Ergobaby 360 carrier",
         description: "Hands-free baby carrying!",
         image: "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcS3wSf5Ddt_tri9W1ahr3jV-oJZfQwW_YOTw2phBAUEcZ0h8h4sJTpnf__pBcWhAgw18dszACjQbVxKt02YKGm8c1XAF1ZUCL9-Vl_g8gcbihr6ihnJJahctw",
         link: "https://ergobaby.com/baby-carrier/omni/the-omni-360-baby-carrier"
     },
     {
-        title: "Stokke Tripp Trapp High Chair",
+        title: "Stokke High Chair",
         description: "+ tray",
         image: "https://assets.babybunting.com.au/prd/118293_1.jpg?tr=w-2000,h-2000,f-webp,q-80,cm-pad_resize",
         link: "https://www.dimples.co.nz/products/tripp-trapp-highchair-5"
@@ -24,13 +24,13 @@ const products = [
         link: "https://www.clusterfitness.co.nz/collections/squat-racks/products/pull-up-squat-rack"
     },
     {
-        title: "Nuna demi double pram",
+        title: "Nuna double pram",
         description: "+ extra seat + rain cover. Fits Nuna pipa car seat",
         image: "https://www.babyonthemove.co.nz/wp-content/uploads/2024/01/Nuna_DEMInext_Caviar_Angle_GL_web_0c2f.jpg.webp",
         link: "https://www.dimples.co.nz/products/demi-next-stroller"
     },
     {
-        title: "Nuna pipa car seat + Nuna swivel base",
+        title: "Nuna car seat + Nuna swivel base",
         description: "so easy getting buba in/out of the car!",
         image: "https://www.babyonthemove.co.nz/wp-content/uploads/2022/01/Nuna_PIPAnext_Caviar_CHOCleather_Angle_GL_8x8.jpg.webp",
         link: "https://nunababy.com/nz/pipa-next-infant-car-seat-next-system?color_ref=16693"
@@ -40,6 +40,24 @@ const products = [
         description: "+ mini mattress + toddler extension + toddler mattress + shear cover",
         image: "https://www.dimples.co.nz/cdn/shop/files/591901_stokke-sleepi-mini-bassinet-crib-v3-natural_1.jpg?v=1759453047&width=1946",
         link: "https://www.stokke.com/en-nz/nursery/stokke-sleepi/5914.html"
+    },
+    {
+        title: "Woven moses basket",
+        description: "+ mattress - stand",
+        image: "https://www.naturebaby.co.nz/cdn/shop/files/MOSES_BASKET_-_BASICS_None-Extra_Img_-_4.jpg?v=1761165110&width=3000",
+        link: "https://www.naturebaby.co.nz/collections/moses-baskets-bassinets/products/moses-set-basics-none"
+    },
+    {
+        title: "Wooden change table",
+        description: "dont hurt your back!",
+        image: "https://www.naturebaby.co.nz/cdn/shop/files/NATURE_BABY_CHANGE_TABLE_Natural-Web-front.png?v=1753753192&width=3000",
+        link: "https://www.naturebaby.co.nz/collections/changetables/products/nature-baby-change-table-natural"
+    },
+    {
+        title: "Nuna travel cot",
+        description: "Sleep on the go!",
+        image: "https://nunababy.com/media/catalog/product/N/u/Nuna_SENAaire_Caviar_Angle_GL_web_811b.png?optimize=high&fit=bounds&height=730&width=730&canvas=730:730&format=jpeg",
+        link: "https://nunababy.com/nz/sena-aire-zip-out-bassinet?color_ref=16366"
     }
 ];
 
