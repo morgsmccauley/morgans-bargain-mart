@@ -142,7 +142,7 @@ header {
     font-family: 'Press Start+2P', cursive;
     font-size: 1.3rem;
     color: #ffff00;
-    text-shadow: 2px 2px 0 #ff00ff, 4px 4px 0 #00ffff;
+    text-shadow: 2px 2px 0 #ff00ff;
     margin-bottom: 15px;
     line-height: 1.6;
 }
